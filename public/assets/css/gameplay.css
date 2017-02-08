@@ -1,0 +1,274 @@
+/***********************************
+              Global CSS
+***********************************/
+
+* {
+    box-sizing: border-box;
+    /*instead of adding the border and padding, it will set this to the inside rather than the outside*/
+    -moz-box-sizing: border-box;
+    font-family: sans-serif;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+body {
+    background-color: #F05F40;
+    font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+    max-width: 1024px;
+    overflow: auto;
+}
+
+a {
+    -webkit-transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    transition: all 0.35s;
+    color: white;
+}
+
+a:hover, a:focus {
+    color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/***********************************
+              NavBar CSS
+***********************************/
+
+.navbar-default {
+    background-color: rgba(34, 34, 34, 0.04);
+    border-color: rgba(34, 34, 34, 0.05);
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    -webkit-transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    transition: all 0.35s;
+}
+
+.navbar-default .navbar-header .navbar-brand {
+    color: white;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.navbar-default .navbar-header .navbar-brand:hover, .navbar-default .navbar-header .navbar-brand:focus {
+    color: white;
+}
+
+.navbar-default .navbar-header .navbar-toggle {
+    font-weight: 700;
+    font-size: 12px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.navbar-default .nav>li>a, .navbar-default .nav>li>a:focus {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 13px;
+    color: white;
+}
+
+.navbar-default .nav>li>a:hover, .navbar-default .nav>li>a:focus:hover {
+    color: white;
+}
+
+.navbar-default .nav>li.active>a, .navbar-default .nav>li.active>a:focus {
+    color: white !important;
+    background-color: transparent;
+}
+
+.navbar-default .nav>li.active>a:hover, .navbar-default .nav>li.active>a:focus:hover {
+    background-color: transparent;
+}
+
+.btn {
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    border: none;
+    border-radius: 300px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.btn-primary {
+    color: #F05F40;
+    background-color: white;
+    border-color: #F05F40;
+    -webkit-transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    transition: all 0.35s;
+}
+
+
+/***********************************
+              GameDiv
+***********************************/
+#current-turn {
+    /* Positioning */
+    margin: 15px auto;
+    /* Box-model */
+    width: 20%;
+    /* Typography */
+    text-align: center;
+}
+
+#game-div {
+  top: 130px;
+  left: 10%;
+
+  position: fixed;
+    /* Typography */
+}
+
+#player1, #player2, #result {
+
+    display: inline-block;
+    border-radius: 25px;
+    background: linear-gradient(white, #00F6FF);
+    padding: 10px;
+    height: auto;
+    width: 200px;
+    text-align: center;
+}
+
+#result {
+  min-height: 50px;
+  height: auto;
+  text-align: center;
+}
+
+#player1-name, #player2-name {
+    /* Positioning */
+    margin-bottom: 15px;
+    /* Typography */
+    font-size: 16px;
+}
+
+#player1-chosen, #player2-chosen {
+    /* Positioning */
+    margin-top: 25px;
+    /* Typography */
+    font-size: 60px;
+}
+
+li {
+    /* Positioning */
+    margin: 12px 0;
+    /* Typography */
+    font-size: 24px;
+}
+
+
+.outcome-trackers {
+    /* Box-model */
+    display: inline-block;
+}
+
+#result h2 {
+    /* Positioning */
+    /* Typography */
+    font-size: 60px;
+}
+
+#buttonJoin {
+    width: 100px;
+    background-color: rgba(34, 34, 34, 0.09);
+    box-shadow: 0px 30px 40px rgba(0,0,0,.1);
+
+}
+
+/***********************************
+            Chatbox
+***********************************/
+
+#chatbox {
+    max-width: 30%;
+    position: fixed;
+    right: 0px;
+    top: 130px;
+    z-index: 2;
+    bottom: 0px;
+}
+
+#chat {
+  max-height: 85%;
+  overflow: scroll;
+  margin: 0px;
+    /* Positioning */
+    /* Box-model */
+    /* Visual */
+}
+
+#chat-messages {
+    /* Box-model */
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    /* Visual */
+}
+
+#chat-bar {
+    /* Positioning */
+    bottom: 10px;
+}
+
+#chat-input {
+    /* Box-model */
+    display: inline-block;
+    width: 70%;
+}
+
+#chat-send {
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+}
+
+.player0 {
+    background-color: #fff6e5;
+    margin-bottom: 10px;
+}
+.player1 {
+  background-color: #ffe4b2;
+  margin-bottom: 10px;
+}
+.player2 {
+  background-color: #ffc966;
+  margin-bottom: 10px;
+}
+ /*guest chat css*/
+.playerfalse {
+  background-color: #F5F5F5;
+  margin-bottom: 10px;
+}
+
+/***********************************
+            Canvas
+***********************************/
+
+#drawing {
+    z-index: -1;
+    height: auto;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #FFECB3;
+    padding: 0px;
+    position: fixed;
+    left: 0px;
+    top: 70px;
+    bottom: 0px;
+
+}
+
+#canvasiframe {
+  width: 100%;
+  height: 100%;
+}
