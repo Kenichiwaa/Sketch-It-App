@@ -3,6 +3,7 @@
 # Sketch-It-App
 A game where one user draws, and another guesses! Using Node.js, Firebase, with Socket.io and Canvas HTML5.
 
+![alt tag](./screenshot-home.png)
 ![alt tag](./screenshot.png)
 
 ## Installation
