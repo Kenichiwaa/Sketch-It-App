@@ -1,13 +1,13 @@
 <snippet>
   <content><![CDATA[
-# ${1:Sketch-It-App}
+# Sketch-It-App
 A game where one user draws, and another guesses! Using Node.js, Firebase, with Socket.io and Canvas HTML5.
 
 ![alt tag](./screenshot.png)
 
 ## Installation
-Download github repository.
-run `npm install`
+Download the github repository. <br />
+run `npm install` <br />
 run 'node server.js'
 
 
