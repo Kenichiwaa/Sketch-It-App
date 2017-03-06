@@ -10,7 +10,7 @@ A game where one user draws, and another guesses! Built with Firebase, Node.js, 
 
 
 ## Installation
-Download the github repository. https://github.com/Kenichiwaa/Sketch-It-App
+Download the github repository.
 <br />
 run `npm install`
 <br />
@@ -18,7 +18,7 @@ run 'node server.js'
 
 
 ## Usage
-Create account or login. Game will start when two players join.
+Create account or login. Game will start when two players join. Each player will have 30 seconds to guess the correct word. Players can message each other. Once player types the correct word, sides will switch and the canvas and word will be refreshed.
 
 ## Contributing
 1. Fork it!
@@ -28,8 +28,8 @@ Create account or login. Game will start when two players join.
 5. Submit a pull request :D
 
 ## Credits
-Alex
-Kevin
+Kevin Duong
+Nam Kim
 Kenichi Sugai
 
 ## License
