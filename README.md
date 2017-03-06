@@ -1,21 +1,21 @@
 <snippet>
   <content>
 # Sketch-It-App
-A game where one user draws, and another guesses! Using Node.js, Firebase, with Socket.io and Canvas HTML5.
+https://sketch-it.herokuapp.com/
+A game where one user draws, and another guesses! Built with Firebase, Node.js, and Socket.io.
 
 ![alt tag](./screenshot-home.png)
 <br />
-<br />
-![alt tag](./screenshot.png)
+
 
 ## Installation
-Download the github repository. <br />
+Download the github repository. https://github.com/Kenichiwaa/Sketch-It-App
 run `npm install` <br />
 run 'node server.js'
 
 
 ## Usage
-TODO: Write usage instructions
+Create account or login. Game will start when two players join.
 ## Contributing
 1. Fork it!
 2. Create your feature branch: `git checkout -b my-new-feature`
@@ -25,8 +25,11 @@ TODO: Write usage instructions
 ## History
 TODO: Write history
 ## Credits
-TODO: Write credits
+Alex
+Kevin
+Kenichi Sugai
 ## License
+MIT
 TODO: Write license
 ]]></content>
   <tabTrigger>readme</tabTrigger>
