@@ -32,9 +32,9 @@ Once player types the correct word, sides will switch and the canvas and word wi
 5. Submit a pull request :D
 
 ## Credits
-Kevin Duong <br />
-Nam Kim <br />
-Kenichi Sugai
+* **Kevin Duong** - *Front End* -
+* **Nam Kim** - *Back End* -
+* **Kenichi Sugai** - *Front End* - [Kenichiwaa](https://github.com/Kenichiwaa)
 
 ## License
 MIT
