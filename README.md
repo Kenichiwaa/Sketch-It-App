@@ -18,7 +18,9 @@ run 'node server.js'
 
 
 ## Usage
-Create account or login. Game will start when two players join. Each player will have 30 seconds to guess the correct word. Players can message each other. Once player types the correct word, sides will switch and the canvas and word will be refreshed.
+Create account or login. Game will start when two players join.
+Each player will have 30 seconds to guess the correct word. Players can message each other.
+Once player types the correct word, sides will switch and the canvas and word will be refreshed.
 
 ## Contributing
 1. Fork it!
