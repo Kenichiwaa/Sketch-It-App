@@ -6,7 +6,6 @@ https://sketch-it.herokuapp.com/
 A game where one user draws, and another guesses! Built with Firebase, Node.js, and Socket.io.
 
 <br />
-<br />
 
 ![alt tag](./screenshot.png)
 <br />
